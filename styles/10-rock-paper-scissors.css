@@ -1,0 +1,29 @@
+      body {
+        background-color: #1e1e1e;
+        color: white;
+        font-family: Arial;
+        text-align: center;
+        margin-top: 50px;
+      }
+      .move-button {
+        background-color: transparent;
+        border: 3px solid white;
+        border-radius: 100px;
+        padding: 20px;
+        margin: 10px;
+        cursor: pointer;
+      }
+      .move-icon {
+        width: 60px;
+        height: 60px;
+      }
+      .result, .score {
+        font-size: 24px;
+        margin: 20px 0;
+      }
+      .js-moves {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+      }
